@@ -1,0 +1,174 @@
+{
+  "status": "VERIFIED",
+  "file": "oracle/evidence/msl-machine/campaigns/erdos949-campaign-001/kernel/Erdos949HindmanFS.lean",
+  "backend": "scaleway-box",
+  "host": "root@51.15.107.148",
+  "project": "/root/mathlib4",
+  "command": "cd /root/mathlib4 && export PATH=/root/.elan/bin:$PATH && lake env lean /root/peer/hindman/Erdos949HindmanFS.lean",
+  "needsMathlib": true,
+  "exitCode": 0,
+  "seconds": 6.83,
+  "sha256": "f4130c29f345afc9b264aa2331199433f6f0bfdd9dc7e224a49123a60970b9ac",
+  "promotes": "oracle/evidence/msl-machine/campaigns/erdos949-campaign-001/kernel/Erdos949Hindman.lean",
+  "promotionClaim": "Pairwise sums (A + A disjoint from S) upgraded to the FULL Hindman finite-sums form: FS(A) is disjoint from S, i.e. every nonempty finite sum of DISTINCT elements of A lies outside S, and so does its double. The pairwise statement erdos949_countable_analogue is re-derived here as a corollary of the new theorem.",
+  "sorryFree": true,
+  "declarations": [
+    {
+      "declaration": "bsum_zero",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "bsum_succ",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "bsum_mem",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "bsum_add_mem",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "le_bsum",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "blk_succ_fst",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "blk_succ_snd",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "ypos_mem",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "blk_fst_strictMono",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ypos_strictMono",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "FS_drop_mono",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ypos_finset_sum_mem",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "erdos949_hindman_full_finite_sums",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "erdos949_countable_analogue",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "erdos949_hindman_full_finite_sums_control",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "erdos949_countable_analogue_control",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "warnings": [
+    "/root/peer/hindman/Erdos949HindmanFS.lean:81:49: warning: `PNat.one_le` has been deprecated: use `one_le`",
+    "/root/peer/hindman/Erdos949HindmanFS.lean:86:50: warning: `PNat.one_le` has been deprecated: use `one_le`"
+  ],
+  "errors": [],
+  "stdoutExcerpt": [
+    "/root/peer/hindman/Erdos949HindmanFS.lean:81:49: warning: `PNat.one_le` has been deprecated: use `one_le`",
+    "/root/peer/hindman/Erdos949HindmanFS.lean:86:50: warning: `PNat.one_le` has been deprecated: use `one_le`",
+    "'Erdos949HindmanFS.bsum_zero' depends on axioms: [propext]",
+    "'Erdos949HindmanFS.bsum_succ' depends on axioms: [propext]",
+    "'Erdos949HindmanFS.bsum_mem' depends on axioms: [propext]",
+    "'Erdos949HindmanFS.bsum_add_mem' depends on axioms: [propext]",
+    "'Erdos949HindmanFS.le_bsum' depends on axioms: [propext, Quot.sound]",
+    "'Erdos949HindmanFS.blk_succ_fst' depends on axioms: [propext]",
+    "'Erdos949HindmanFS.blk_succ_snd' depends on axioms: [propext]",
+    "'Erdos949HindmanFS.ypos_mem' depends on axioms: [propext, Quot.sound]",
+    "'Erdos949HindmanFS.blk_fst_strictMono' depends on axioms: [propext, Quot.sound]",
+    "'Erdos949HindmanFS.ypos_strictMono' depends on axioms: [propext, Quot.sound]",
+    "'Erdos949HindmanFS.FS_drop_mono' depends on axioms: [propext, Quot.sound]",
+    "'Erdos949HindmanFS.ypos_finset_sum_mem' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'Erdos949HindmanFS.erdos949_hindman_full_finite_sums' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'Erdos949HindmanFS.erdos949_countable_analogue' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'Erdos949HindmanFS.erdos949_hindman_full_finite_sums_control' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'Erdos949HindmanFS.erdos949_countable_analogue_control' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "replication": {
+    "runs": 2,
+    "identicalOutput": true,
+    "note": "Two independent `lake env lean` runs on the box produced byte-identical stdout (fs1.log, fs2.log under /root/peer/out/)."
+  }
+}

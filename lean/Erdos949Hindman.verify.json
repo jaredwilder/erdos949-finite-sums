@@ -1,0 +1,113 @@
+{
+  "status": "VERIFIED",
+  "file": "oracle/evidence/msl-machine/campaigns/erdos949-campaign-001/kernel/Erdos949Hindman.lean",
+  "backend": "wsl",
+  "project": "/root/erdosfire-bench/proofs",
+  "needsMathlib": true,
+  "exitCode": 0,
+  "seconds": 71.8,
+  "declarations": [
+    {
+      "declaration": "bsum_zero",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "bsum_succ",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "bsum_mem",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "bsum_add_mem",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "le_bsum",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "blk_succ_fst",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "blk_succ_snd",
+      "clean": true,
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "declaration": "ypos_mem",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "blk_fst_strictMono",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ypos_strictMono",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ypos_add_mem",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "erdos949_countable_analogue",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "erdos949_countable_analogue_control",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "errors": []
+}

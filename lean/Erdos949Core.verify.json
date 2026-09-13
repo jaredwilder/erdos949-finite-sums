@@ -1,0 +1,48 @@
+{
+  "status": "VERIFIED",
+  "file": "oracle/evidence/msl-machine/campaigns/erdos949-campaign-001/kernel/Erdos949Core.lean",
+  "backend": "wsl",
+  "project": "/root/erdosfire-bench/proofs",
+  "needsMathlib": true,
+  "exitCode": 0,
+  "seconds": 76.5,
+  "declarations": [
+    {
+      "declaration": "erdos949_finite_core",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "erdos949_universal",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "erdos949_five_sharp",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "erdos949_five_sharp_real",
+      "clean": true,
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,4 @@
+'erdos949_finite_core' depends on axioms: ['propext', 'Classical.choice', 'Quot.sound']
+'erdos949_universal' depends on axioms: ['propext', 'Classical.choice', 'Quot.sound']
+'erdos949_five_sharp' depends on axioms: ['propext', 'Classical.choice', 'Quot.sound']
+'erdos949_five_sharp_real' depends on axioms: ['propext', 'Classical.choice', 'Quot.sound']
