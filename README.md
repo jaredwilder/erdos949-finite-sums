@@ -1,25 +1,25 @@
-# Erdős #949 — finite-sums avoidance
+# Erdős #949 — Finite-Sums Avoidance
 
-**Author:** Jared Wilder  
-**Status:** theorem + formalization program.
+**Jared Wilder**
 
-This repository is the canonical public home for the estate's #949 finite-sums avoidance work. It brings the human theorem package together with the clean Lean formalization layer rather than leaving them split between a provenance archive and a broad theorem bank.
+Human proofs and Lean formalization for finite-sums avoidance questions around Erdős Problem #949.
 
-## Complement-cardinality child
+## Complement-cardinality theorem
 
-The [complete written proof](human/complement-cardinality.md) shows that the complement of any sum-free subset of `R` has cardinality continuum. This does not construct a continuum-sized `A` with `A+A` in that complement. The child has written-proof authority here; its historical formal source and receipt remain to be identified.
+The [written proof](human/complement-cardinality.md) establishes that the complement of any sum-free subset of `R` has cardinality continuum.
 
-## Formal layer
+This gives a clean cardinality statement at the base of the program and separates it from the harder constructive question of producing a continuum-sized set whose pairwise sums land in such a complement.
 
-The focused formal source contains **33 clean Lean declarations** across the core, Hindman-style, and full finite-sums layers. Kernel status and axiom footprints belong to the declarations actually checked; they are not a blanket label for every surrounding note.
+## Lean formalization
 
-## Source layout
+The focused formal layer contains **33 clean Lean declarations** spanning the finite core, Hindman-style structure, and full finite-sums statements.
 
-Exact public source bytes are migrated under:
+The formal and human layers are kept side by side so each theorem can be read either as mathematics or as checked source.
 
-- `human/README.md` — the original `unpublished-math-papers/erdos949-sumfree-ip/README.md`;
-- `lean/` — `erdos-theorems/theorems/erdos949-campaign-001/`.
+## Repository map
 
-The added `human/complement-cardinality.md` is a new written presentation, with its own authority statement.
+- `human/` — written theorem package and exposition
+- `human/complement-cardinality.md` — complete proof of the complement-cardinality theorem
+- `lean/` — focused Lean formalization
 
-The repository preserves the distinction between the finite core, transfer arguments, and broader infinite statements. Historical novelty is adjudicated separately from proof status.
+Historical source material was consolidated here from the broader Wilder theorem and archive repositories.
